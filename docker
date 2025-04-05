@@ -1,0 +1,38 @@
+1  docker --version
+    2  docker version
+    3  docker ps
+    4  docker ps -a
+    5  docker pull nginx
+    6  docker ps
+    7  docker images
+    8  docker run -d -p 4000:80 nginx:latest
+    9  docker ps
+   10  man ls
+   11  docker stop 9e0aef6d02d3
+   12  docker ps
+   13  docker ps -a
+   14  doker rm 9e0aef6d02d3
+   15  docker rm 9e0aef6d02d3
+   16  docker ps -a
+   17  docker images
+   18  docker rm 53a18edff809
+   19  docker rmi 53a18edff809
+   20  docker images
+   21  clear
+   22  nano Dockerfile
+   23  ls
+   24  cat Dockerfile 
+   25  docker build -t adhi:v1 .
+   26  nano Dockerfile 
+   27  docker build -t adhi:v1 .
+   28  docker run -d -p 4000:80 adhi:v1
+   29  docker ps
+   30  docker images
+   31  ls
+   32  nano index.html
+   33  ls
+   34  docker build -t ex:v1
+   35  docker build -t ex:v1 .
+   36  docker run -d -p 5000:80 ex:v1
+   37  docker ps
+   38  history
